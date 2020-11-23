@@ -1,0 +1,39 @@
+ul {
+    width: 40%;
+	padding: 10px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	list-style: none;
+	max-height: 70vh;
+	overflow-y: auto;
+	margin-bottom: 120px;
+}
+
+li {
+    padding: 20px;
+	border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.left-elements {
+    float: left;
+}
+
+.right-elements {
+    float: right;
+}
+
+li:hover{
+    background-color: gray;
+}
+
+#item-lists {
+    text-align: center;
+}
+
+.subtract-disable {
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+}

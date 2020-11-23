@@ -1,0 +1,56 @@
+#end-game{
+	text-align: center;
+}
+
+.new-game {
+	text-align: center;
+}
+
+.headers {
+	text-align: center;
+}
+
+.guessed-word {
+	text-align: right;
+	font-size: 25px
+}
+
+ol {
+	width: 40%;
+	padding: 5px;
+	border: 1px solid black;
+	float: right;
+	margin-bottom: 3px;
+	list-style: none;
+	max-height: 60vh;
+	overflow-y: auto;
+	margin-bottom: 120px;
+}
+
+ul {
+	width: 25%;
+	padding: 5px;
+	border: 1px solid black;
+	float: left;
+	margin-bottom: 3px;
+	list-style: none;
+	max-height: 60vh;
+	overflow-y: auto;
+	margin-bottom: 120px;
+}
+
+.word {
+	background-color: rgba(255,0,0,0.4);
+}
+
+.correct {
+	background-color: green;
+}
+
+.valid {
+	background-color: yellow;
+}
+
+.invalid {
+	background-color: red;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="status"></div>
+        <div id="item-lists" > 
+            <h1 class="header">Item Lists</h1>
+            <button class="logout" type="button" >Logout</button>
+            <div class="outgoing">
+                <label>Enter Item<input class="item-to-add" placeholder="Enter here"/></label>
+                <label>Enter quantity<input type="number" class="quantity-to-add" placeholder="0"/></label>
+                <button type="button" class="to-add">Add</button>
+            </div>
+
+            <ul class="items">
+                
+            </ul>
+        </div>
+        <div id="login-page"> 
+            <h1 class="header">Welcome</h1>
+            <div class="login-credentials">
+                <label>Enter Username<input class="username" type="text"/></label>
+                <button type="button" class="login-button">Login</button>
+            </div>
+        </div>     
+        <div id="loading" >
+            <h1>Loading...</h1>
+        </div> 
+        <script src="items.js"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+.cats-form {
+	float: left;
+	width: 25%;
+}
+.students-form {
+	float: left;
+  	width: 25%;
+}
+.error-block {
+	color: red;
+}

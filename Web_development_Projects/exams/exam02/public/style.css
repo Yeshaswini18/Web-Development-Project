@@ -1,0 +1,62 @@
+.disabled {
+display: none;
+}
+
+.status {
+text-align: center;
+color: red;
+}
+
+body{
+background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+.author {
+margin-left: 50px;
+}
+
+.header {
+text-align: center;
+}
+
+button {
+background-color: #4CAF50	;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 22px;
+}
+
+
+ul {
+list-style: square  ;
+}
+
+
+.title:hover {
+color: blue;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+.login-credentials{
+text-align: center;
+font-size: 26px;
+}
+
+.to-add-new {
+text-align: center;
+}
+
+.logout{
+float: right
+}
+
+.login{
+float: right
+}

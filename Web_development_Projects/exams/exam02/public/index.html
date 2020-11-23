@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="recipe-app">
+            <div class="status"></div>
+            <div id="add-recipe-page"> 
+                <h1 class="header">Add your recipe here</h1>
+                <button class="logout" type="button">Logout</button>
+                <button class="return" type="button">Return To Home Page</button>
+                <div class="display-message"></div>
+                <div class="outgoing">
+                    <p><label>Enter Title<input class="title" placeholder="Enter here"/></label></p>
+                    <p><label>Enter Ingredients<textarea class="ingredients"></textarea></label></p>
+                    <p><label>Enter Instructions<textarea class="instructions"></textarea></label></p>
+                    <p><button type="button" class="to-add">Add</button></p>
+                </div>
+            </div>
+            <div id="login-page"> 
+                <h1 class="header">Welcome</h1>
+                <div class="login-credentials">
+                    <label>Enter Username<input class="username" type="text"/></label>
+                    <button type="button" class="main-login">Login</button>
+                </div>
+                <div class="recipe-list">
+                    <h3>Recipes List</h3>
+                    <ul class="recipe-title">
+                
+                    </ul>	
+                </div>
+            </div>  
+            <div id="loggedin-page"> 
+                <h1 class="header">Welcome to your page</h1>
+                <div class="to-add-new">
+                    <button type="button" class="to-add-new">Add New Recipe</button>
+                </div>
+                <button class="logout" type="button">Logout</button>
+                <div class="recipe-list">
+                    <h3>Recipes List</h3>
+                    <ul class="recipe-title">
+                
+                    </ul>	
+                </div>
+            </div>  
+            <div id="display-recipe-loggedin">
+                <button type="button" class="logout">Logout</button>
+                <button type="button" class="return">Return To Home Page</button>
+                <div class="display-recipe">
+
+                </div>
+            </div>  
+            <div id="display-recipe-loggedout">
+                <button type="button" class="return-loggedout">Return To Home Page</button>
+                <button type="button" class="login">Login</button>
+                <div class="display-recipe">
+
+                </div>
+            </div> 
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

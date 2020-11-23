@@ -1,0 +1,174 @@
+.light {
+  border-style: solid;
+  background-color: #e3ecb0;
+  color: rgb(255, 123, 0);
+  font-family: "Gill Sans", sans-serif;
+}
+
+.dark {
+  border-style: solid;
+  background-color: rgb(41, 41, 63);
+  color: rgb(154, 187, 141);
+  font-family: system-ui;
+}
+
+.colorful {
+  border-style: solid;
+  background-image: linear-gradient(to right, red , yellow);
+  font-family: cursive;
+}
+
+.mark-done {
+  background-color: #3CBC8D;
+  color: white;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.login {
+  text-align: center;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+}
+
+.logout-button {
+    float: right;
+    margin-top: 40px;
+}
+
+.choose-theme {
+  font-weight: bold;
+}
+
+.delete-all {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.delete-all {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.refresh-button {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.refresh-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.to-add {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.to-add {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.sorting {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.delete {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.update {
+  background-color: #af5b4c; 
+  border: none;
+  color: white;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.done-button {
+  background-color: #af5b4c; 
+  border: none;
+  color: white;
+  padding: 16px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}

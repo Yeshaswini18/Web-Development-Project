@@ -1,0 +1,18 @@
+html {
+	font-family: sans-serif;
+}
+
+li {
+  padding: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+li:nth-child(2n+1) {
+	background-color: rgba(255,0,0,0.4); 
+}
+
+li:nth-child(2n) {
+	background-color: rgba(255,0,0,0.8);
+}

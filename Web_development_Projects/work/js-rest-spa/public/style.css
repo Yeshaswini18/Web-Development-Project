@@ -1,0 +1,80 @@
+.header {
+    text-align: center;
+    color: green
+}
+
+.logout {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+
+.logout{
+    float: right;
+}
+
+body {
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+.to-add {
+    background-color: #4CAF50
+}
+.update {
+    background-color: #4CAF50
+}
+
+.quantity {
+    margin-left: 40px;
+    width: 50px;
+}
+
+.delete { 
+    margin-left: 20px;
+    color: red;
+}
+
+li:hover {
+    background-color: #4CAF50;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.login-credentials{
+    text-align: center;
+    font-size: 26px;
+}
+
+.login-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+.status {
+    padding: 20px;
+    color: #f44336;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#loading {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.disabled{
+    display: none;
+}

@@ -1,0 +1,238 @@
+.main-heading {
+  text-align: center;
+  border-style: solid;;
+  padding: 10px 10px 10px 10px;
+  background-image: linear-gradient(-90deg, rgb(17, 0, 255), rgb(0, 255, 255));
+  color: black;
+  font-family: cursive;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.warning {
+  text-align: center;
+  color: blue;
+}
+
+.login-button {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.logout-button {
+  float: right;
+}
+
+.refresh {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.form {
+  text-align: center;
+}
+
+.image {
+  height:250px;
+  width: 250px;
+  padding:20px 20px 20px 20px;
+}
+
+.movie-images {
+  border-style: solid 1px black;
+  height: 300px;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    color: blue;
+}
+
+.customers-booking {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.customers-booking{
+  float: left;
+}
+
+.filters {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+.filter-movietype {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 20px 20px 20px;  
+}
+
+.filter-location {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 20px 20px 20px;
+}
+
+.filter-language {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px 20px 20px 20px;
+}
+
+.now-showing {
+  text-align: center;
+}
+
+.back-button {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-top: 20px;
+}
+
+#disable {
+  display: block;
+}
+
+.single-image {
+  height:350px;
+  width: 350px;
+  padding:20px 20px 20px 20px;
+  margin-left: 150px;
+}
+
+.movie-details{
+  float: right;
+  margin-right: 150px;
+}
+
+.QR-code {
+  height: 100px;
+  width: 100px;
+}
+
+.description{
+  border: 1px solid black;
+  padding: 10px;
+  height: 100px;
+  width: 400px;
+  overflow: scroll;
+}
+
+.timing {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.timing {
+  padding:20px 20px 20px 20px;;
+}
+
+.book-button {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.checkout-button {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.delete-booking {
+  background-color: rgb(45, 45, 179);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bookings-info {
+  padding: 20px 20px 20px 20px;
+}
